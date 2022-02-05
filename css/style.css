@@ -1,0 +1,161 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@400;700&display=swap");
+@font-face {
+  font-family: "garamond";
+  src: url("../fonts/OriginalGaramondBT-Regular.woff2") format("woff2");
+  src: url("../fonts/OriginalGaramondBT-Regular.woff") format("woff");
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "garamond italic";
+  src: url("../fonts/OriginalGaramondBT-Italic.woff2") format ("woff2");
+  src: url("../fonts/OriginalGaramondBT-Italic.woff") format ("woff");
+  font-weight: 400;
+  font-style: italic;
+  font-display: swap;
+}
+@font-face {
+  font-family: "akzident";
+  src: url("../fonts/AkzidenzGroteskPro-Regular.woff2") format("woff2");
+  src: url("../fonts/AkzidenzGroteskPro-Regular.woff") format("woff");
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "akzident";
+  src: url("../fonts/AkzidenzGroteskPro-MdIt.woff2") format("woff2");
+  src: url("../fonts/AkzidenzGroteskPro-MdIt.woff") format("woff");
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "serpand";
+  src: url("../fonts/SerpAndMolot.woff2") format("woff2");
+  src: url("../fonts/SerpAndMolot.woff") format("woff");
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  border: 0;
+}
+li {
+  list-style: none;
+}
+a {
+  color: inherit;
+}
+a,
+a:visited {
+  text-decoration: none;
+}
+a:hover {
+  text-decoration: none;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-weight: inherit;
+  font-size: inherit;
+}
+img {
+  vertical-align: top;
+}
+body,
+html {
+  height: 100%;
+  line-height: 1;
+  font-size: 20px;
+  line-height: 1.3;
+}
+.wraperr {
+  max-width: 1200px;
+}
+h1 {
+  text-align: center;
+  font-size: 35px;
+  text-transform: uppercase;
+  letter-spacing: 5px;
+}
+.header {
+  font-family: "garamond", serif;
+}
+.header__text {
+  font-style: italic;
+}
+.list {
+  font-family: "akzident", serif;
+  font-weight: 500;
+}
+[class*="__text"] {
+  text-align: justify;
+  text-indent: 30px;
+}
+[class*="__subtitle"] {
+  font-size: 25px;
+  text-align: center;
+  letter-spacing: 5px;
+}
+.serif__subtitle {
+  font-variant: small-caps;
+}
+.sans-serif__subtitle {
+  font-weight: 400;
+  font-style: normal;
+  text-align: left;
+  text-transform: lowercase;
+}
+.serif__fonts {
+  font-family: "garamond", serif;
+}
+.oldstyle__nums {
+  font-variant-numeric: oldstyle-nums;
+}
+.small-caps {
+  font-variant: small-caps;
+}
+.italic {
+  font-style: italic;
+}
+.sans-serif {
+  font-family: "akzident", sans-serif;
+  font-style: normal;
+}
+.slab-serif__fonts {
+  font-family: "Roboto Slab", serif;
+  font-weight: 400;
+}
+.slab-serif__subtitle {
+  font-weight: 700;
+  text-align: right;
+  text-decoration: overline;
+}
+.accidental__fonts {
+  font-family: Helvetica, sans-serif;
+}
+.accidental__subtitle {
+  font-family: "serpand", serif;
+  text-shadow: 0px 0px 10px rgba(240, 139, 139, 0.61);
+}
+.footer {
+  font-family: "garamond";
+}
+.underline {
+  text-decoration: underline;
+}
+.line-through {
+  text-decoration: line-through;
+}
+.footer__text {
+  white-space: nowrap;
+}
